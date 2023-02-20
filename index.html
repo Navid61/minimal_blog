@@ -1,46 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/e125b51cc5.css" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
+
     <title>Minimal blog</title>
 </head>
+
 <body>
-    <div class="main-menu">
-        <ul class="menu">
-            <li class="menu-item"><a href="#">
-                Home
-            </a></li>
-            <li class="menu-item"><a href="#">
-                Design
-            </a></li>
-            <li class="menu-item"><a href="#">
-                Sitebuild
-            </a></li>
-            <li class="menu-item"><a href="#">
-                About
-            </a></li>
-        </ul>
-    </div>
-    <div class="container">
-        <h2 class="title-header">
-            This is the title of the page
-        </h2>
-        <p> <time datetime="2008-02-14 20:00">Valentines day</time></p>
-        <p class="content-one">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel impedit, facilis, necessitatibus nisi, sapiente possimus molestias neque eaque amet asperiores omnis explicabo doloribus illo temporibus? Quis velit hic maiores maxime.
-        </p>
-        <h4 class="subtitle">This is subtitle</h4>
-        <p class="content-two">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, deserunt at. A fugiat, magnam officia aspernatur dolor quod laboriosam nihil? Facilis culpa maxime consequatur unde, veniam possimus earum natus beatae aperiam similique ad harum sint! Dignissimos inventore sequi quo, corporis et alias consequuntur nostrum quasi fugit, nam asperiores sit cupiditate. Ut obcaecati cum debitis quidem aliquam dolorum, distinctio saepe voluptatem minima nostrum quia rem delectus cupiditate consequuntur excepturi, eveniet ipsum?
-        </p>
-        <div class="gallary">
-            <img src="./1.jpg" alt="">
-            <img src="./2.jpg" alt="">
-            <img src="./3.jpg" alt="">
+    <header>
+        <div class="main-menu">
+            <ul class="menu">
+                <li class="menu-item"><a href="#">
+                        Home
+                    </a></li>
+                <li class="menu-item"><a href="#">
+                        Design
+                    </a></li>
+                <li class="menu-item"><a href="#">
+                        Sitebuild
+                    </a></li>
+                <li class="menu-item"><a href="#">
+                        About
+                    </a></li>
+            </ul>
         </div>
-    </div>
+    </header>
+    <main class="container">
+       
+            <h2 class="title-header">
+                This is the title of the page
+            </h2>
+            <p class="time-text"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock-hour-9" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                <path d="M12 12h-3.5"></path>
+                <path d="M12 7v5"></path>
+             </svg><time>2017.07.28</time><time>10:45 </time><span>John Smith </span></p>
+            <p class="content-one">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel impedit, facilis, necessitatibus nisi, sapiente
+                possimus molestias neque eaque amet asperiores omnis explicabo doloribus illo temporibus? Quis velit hic
+                maiores maxime.
+            </p>
+            <h3 class="subtitle">This is subtitle</h3>
+            <p class="content-two">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum libero sint blanditiis velit commodi beatae qui quo, est deserunt, illo, sequi optio aliquam minima doloribus labore architecto. Odit exercitationem porro doloremque iure aliquid necessitatibus harum eum et explicabo modi, odio cupiditate fuga sapiente asperiores iusto, illo praesentium molestiae nihil, vitae error soluta? Saepe magnam dignissimos necessitatibus, nobis atque facilis culpa. Id ipsum quam, sunt quidem nesciunt, nostrum repellat pariatur ab eum dignissimos alias minus nisi asperiores iure eligendi optio quod. Dolorum itaque ex cum dolorem! Adipisci deleniti perspiciatis incidunt doloremque distinctio consequatur necessitatibus nulla? Molestiae earum autem maxime placeat vero perferendis cupiditate, ea nulla praesentium esse, fuga a. Sapiente sint temporibus natus? Laboriosam laudantium eaque ea ab asperiores veritatis dolorum!
+            </p>
+            <p class="content-three">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, magni! Enim ex molestiae, alias ea corrupti dolorem deserunt animi excepturi!</p>
+            <div class="gallery">
+                <div class="pic2">
+                    <img src="./1.jpg" alt="">
+                    <img src="./2.jpg" alt="">
+                </div>
+                 <div class="pic1">
+                    <img src="./3.jpg" alt="">
+                </div>
+               
+    
+            </div>
+    </main>
+    <footer>
+
+        <div class="footer">
+           
+             <p class="copyright"><span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                    <path d="M14 9.75a3.016 3.016 0 0 0 -4.163 .173a2.993 2.993 0 0 0 0 4.154a3.016 3.016 0 0 0 4.163 .173"></path>
+                 </svg>
+             </span>Copywrite 2058, Example Corporation</p>
+        </div>
+    </footer>
 </body>
+
 </html>
